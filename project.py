@@ -24,6 +24,8 @@ X_test = scaler.transform(X_test)
 svm_linear = SVC(kernel='linear', random_state=42)
 svm_linear.fit(X_train, y_train)
 
+#test comment
+
 # SVM with RBF Kernel
 svm_rbf = SVC(kernel='rbf', random_state=42)
 svm_rbf.fit(X_train, y_train)
